@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function Pokemon({pokemon}) {
+export default function Pokemon({pokemon, hp}) {
     return (
         <div>
-            {pokemon}
+            <p>{pokemon}</p>
+            <p>{hp}</p>
         </div>
     )
 }
