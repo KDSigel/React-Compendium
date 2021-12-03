@@ -1,10 +1,14 @@
 import React from 'react'
 
-export default function Pokemon({pokemon, hp}) {
+export default function Pokemon({pokemon, hp, height, attack, defense, image}) {
     return (
         <div>
-            <p>{pokemon}</p>
-            <p>{hp}</p>
+            <img src={image} alt='poke'/>
+            <p>Name: {pokemon}</p>
+            <p>HP: {hp}</p>
+            <p>Height: {height}</p>
+            <p>Attack: {attack}</p>
+            <p>Defense: {defense}</p>
         </div>
     )
 }
