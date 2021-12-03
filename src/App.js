@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Compendium from './Views/Compendium';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-hi
+<Compendium />
       </header>
     </div>
   );
