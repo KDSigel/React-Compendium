@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Controls from '../components/Controls/Controls';
-import Sort from '../components/Forms/Sort';
 import PokemonList from '../components/PokemonList/PokemonList';
 import { fetchPokemonByType, fetchTypes, getPokemon } from '../services/getPokemon';
 
