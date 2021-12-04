@@ -4,6 +4,7 @@ export default function Filter({ types, selectedType, setSelectedType }) {
   return (
     <div>
       <select
+      aria-label='dropdown'
         value={selectedType}
         onChange={(e) => setSelectedType(e.target.value)}
       >
