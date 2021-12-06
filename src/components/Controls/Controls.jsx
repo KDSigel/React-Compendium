@@ -10,7 +10,8 @@ export default function Controls({types, selectedType, setSelectedType, sortPoke
         selectedType={selectedType}
         setSelectedType={setSelectedType}
       />
-      <Sort sortPoke={sortPoke} setSortPoke={setSortPoke} />
+      {selectedType && (<Sort sortPoke={sortPoke} setSortPoke={setSortPoke} />
+      )}
     </div>
   );
 }
